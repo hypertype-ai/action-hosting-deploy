@@ -12,12 +12,14 @@ A full setup guide can be found [in the Firebase Hosting docs](https://firebase.
 The [Firebase CLI](https://firebase.google.com/docs/cli) can get you set up quickly with a default configuration.
 
 - If you've NOT set up Hosting, run this version of the command from the root of your local directory:
+
 ```bash
 firebase init hosting
 ```
 
 - If you've ALREADY set up Hosting, then you just need to set up the GitHub Action part of Hosting.
   Run this version of the command from the root of your local directory:
+
 ```bash
 firebase init hosting:github
 ```
@@ -139,7 +141,7 @@ for more information about deploy targets.
 
 ### `entryPoint` _{string}_
 
-The location of your [`firebase.json`](https://firebase.google.com/docs/cli#the_firebasejson_file)
+The directory containing your [`firebase.json`](https://firebase.google.com/docs/cli#the_firebasejson_file)
 file relative to the root of your repository. Defaults to `.` (the root of your repo).
 
 ## Outputs
